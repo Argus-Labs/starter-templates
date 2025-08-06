@@ -4,7 +4,7 @@ go 1.24.0
 
 require (
 	connectrpc.com/connect v1.18.1
-	github.com/argus-labs/go-ecs v0.1.2-dev
+	github.com/argus-labs/go-ecs v0.0.0-20250705224229-194ec6f8a579
 	github.com/nats-io/nats.go v1.39.1
 	google.golang.org/protobuf v1.36.6
 )
