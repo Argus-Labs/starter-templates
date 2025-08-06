@@ -9,4 +9,4 @@ This directory contains example implementations using the World Engine v2.
 - Go 1.24.0 or later
 - World Engine v2 SDK
 ## License
-MIT License - see [LICENSE](LICENSE) for details
+MIT License - see [LICENSE](LICENSE) for details.
