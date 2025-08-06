@@ -16,4 +16,4 @@ This directory contains example implementations using the World Engine v2.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE) for details
