@@ -2,7 +2,7 @@ module world-engine
 
 go 1.24.0
 
-require github.com/argus-labs/monorepo v0.0.0
+require github.com/argus-labs/monorepo v0.1.3-dev
 
 
 
