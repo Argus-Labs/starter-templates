@@ -1,10 +1,9 @@
 package system
 
 import (
-	"world-engine/component"
-	systemevent "world-engine/system_event"
-
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/component"
+	systemevent "github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/system_event"
 )
 
 type GraveyardSystemState struct {

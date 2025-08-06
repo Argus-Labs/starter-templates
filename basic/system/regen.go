@@ -1,9 +1,8 @@
 package system
 
 import (
-	"world-engine/component"
-
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/component"
 	"github.com/argus-labs/go-ecs/pkg/ecs"
 )
 

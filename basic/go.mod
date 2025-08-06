@@ -1,15 +1,13 @@
-module world-engine
+module github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic
 
 go 1.24.0
 
 require (
 	connectrpc.com/connect v1.18.1
-	github.com/argus-labs/go-ecs v0.0.0-20250705224229-194ec6f8a579
+	github.com/argus-labs/go-ecs v0.0.0-00010101000000-000000000000
 	github.com/nats-io/nats.go v1.39.1
 	google.golang.org/protobuf v1.36.6
 )
-
-replace github.com/argus-labs/go-ecs => ../../../../
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1 // indirect
@@ -59,3 +57,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250519155744-55703ea1f237 // indirect
 	google.golang.org/grpc v1.72.2 // indirect
 )
+
+replace github.com/argus-labs/go-ecs => ../../../../
