@@ -9,7 +9,7 @@ require (
 	google.golang.org/protobuf v1.36.6
 )
 
-replace github.com/argus-labs/monorepo => ../../../../
+
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1 // indirect
