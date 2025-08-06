@@ -1,10 +1,11 @@
 package system
 
 import (
+	"world-engine/component"
+	"world-engine/event"
+	systemevent "world-engine/system_event"
+
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/component"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/event"
-	systemevent "github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/system_event"
 )
 
 type AttackPlayerCommand struct {

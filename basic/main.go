@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/system"
+	"world-engine/system"
 
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
 )
