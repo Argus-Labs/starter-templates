@@ -1,8 +1,10 @@
-module demo-game
+module world-engine
 
 go 1.24.0
 
-require github.com/argus-labs/go-ecs v0.0.0-20250705224229-194ec6f8a579
+require github.com/argus-labs/monorepo v0.0.0
+
+replace github.com/argus-labs/monorepo => ../../../../
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1 // indirect

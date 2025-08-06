@@ -3,10 +3,10 @@ package system
 import (
 	"time"
 
-	"chat/component"
-	"chat/event"
+	"world-engine/component"
+	"world-engine/event"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
 )
 
 type UserChatCommand struct {

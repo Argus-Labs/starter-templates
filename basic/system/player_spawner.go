@@ -1,10 +1,10 @@
 package system
 
 import (
-	"basic/component"
-	"basic/event"
+	"world-engine/component"
+	"world-engine/event"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
 )
 
 type CreatePlayerCommand struct {

@@ -3,9 +3,9 @@ package system
 import (
 	"sync"
 
-	"demo-game/component"
+	"world-engine/component"
 
-	"github.com/argus-labs/go-ecs/pkg/ecs"
+	"github.com/argus-labs/monorepo/pkg/ecs"
 )
 
 type PlayerSearch = ecs.Exact[struct {

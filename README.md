@@ -1,4 +1,4 @@
-# Go ECS Examples
+# World Engine Templates
 This directory contains example implementations using the World Engine v2.
 ## Examples
 - **basic**: A simple game with player spawning, health, attacks, and gravestones

@@ -1,10 +1,10 @@
 package system
 
 import (
-	"basic/component"
+	"world-engine/component"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/ecs"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/ecs"
 )
 
 type RegenSystemState struct {

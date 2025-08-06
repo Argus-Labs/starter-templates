@@ -3,10 +3,10 @@ package system
 import (
 	"time"
 
-	"demo-game/component"
-	"demo-game/event"
+	"world-engine/component"
+	"world-engine/event"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
 )
 
 type PlayerSpawnCommand struct {

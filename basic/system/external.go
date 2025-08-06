@@ -1,9 +1,9 @@
 package system
 
 import (
-	otherworld "basic/other_world"
+	otherworld "world-engine/other_world"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
 )
 
 // ExternalCommand should originate from another game shard.

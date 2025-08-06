@@ -1,10 +1,10 @@
 package system
 
 import (
-	"basic/component"
-	systemevent "basic/system_event"
+	"world-engine/component"
+	systemevent "world-engine/system_event"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
 )
 
 type GraveyardSystemState struct {

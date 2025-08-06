@@ -1,13 +1,15 @@
-module basic
+module world-engine
 
 go 1.24.0
 
 require (
 	connectrpc.com/connect v1.18.1
-	github.com/argus-labs/go-ecs v0.0.0-20250705224229-194ec6f8a579
+	github.com/argus-labs/monorepo v0.0.0
 	github.com/nats-io/nats.go v1.39.1
 	google.golang.org/protobuf v1.36.6
 )
+
+replace github.com/argus-labs/monorepo => ../../../../
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1 // indirect

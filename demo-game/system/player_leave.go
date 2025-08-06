@@ -1,10 +1,10 @@
 package system
 
 import (
-	"demo-game/event"
+	"world-engine/event"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/ecs"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/ecs"
 )
 
 type PlayerLeaveCommand struct {

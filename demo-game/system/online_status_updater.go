@@ -2,12 +2,11 @@ package system
 
 import (
 	"time"
+	"world-engine/component"
+	"world-engine/event"
 
-	"demo-game/component"
-	"demo-game/event"
-
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/ecs"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/ecs"
 )
 
 type OnlineStatusUpdaterState struct {

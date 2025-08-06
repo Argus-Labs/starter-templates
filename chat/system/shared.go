@@ -1,9 +1,9 @@
 package system
 
 import (
-	"chat/component"
+	"world-engine/component"
 
-	"github.com/argus-labs/go-ecs/pkg/ecs"
+	"github.com/argus-labs/monorepo/pkg/ecs"
 )
 
 type ChatSearch = ecs.Exact[struct {

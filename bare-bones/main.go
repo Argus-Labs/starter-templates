@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/argus-labs/go-ecs/pkg/cardinal"
+	"github.com/argus-labs/monorepo/pkg/cardinal"
 )
 
 func main() {
