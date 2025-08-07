@@ -3,8 +3,9 @@ package system
 import (
 	"fmt"
 
+	"basic/component"
+
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/component"
 )
 
 type PlayerSpawnerSystemState struct {

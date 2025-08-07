@@ -1,8 +1,9 @@
 package system
 
 import (
+	"demo-game/event"
+
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/demo-game/event"
 	"github.com/argus-labs/go-ecs/pkg/ecs"
 )
 

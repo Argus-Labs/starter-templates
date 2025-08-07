@@ -1,10 +1,10 @@
-module github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic
+module basic
 
 go 1.24.0
 
 require (
 	connectrpc.com/connect v1.18.1
-	github.com/argus-labs/go-ecs v0.0.0-00010101000000-000000000000
+	github.com/argus-labs/go-ecs v0.1.2-dev
 	github.com/nats-io/nats.go v1.39.1
 	google.golang.org/protobuf v1.36.6
 )
@@ -57,5 +57,3 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250519155744-55703ea1f237 // indirect
 	google.golang.org/grpc v1.72.2 // indirect
 )
-
-replace github.com/argus-labs/go-ecs => ../../../../

@@ -1,9 +1,10 @@
 package system
 
 import (
+	"basic/component"
+	"basic/event"
+
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/component"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/event"
 )
 
 type CreatePlayerCommand struct {

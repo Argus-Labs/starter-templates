@@ -1,7 +1,7 @@
 package system
 
 import (
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/basic/component"
+	"basic/component"
 
 	"github.com/argus-labs/go-ecs/pkg/ecs"
 )

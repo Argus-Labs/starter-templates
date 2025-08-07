@@ -1,8 +1,8 @@
-module github.com/argus-labs/go-ecs/pkg/cardinal/examples/chat
+module chat
 
 go 1.24.0
 
-require github.com/argus-labs/go-ecs v0.0.0-00010101000000-000000000000
+require github.com/argus-labs/go-ecs v0.1.2-dev
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.5-20250219170025-d39267d9df8f.1 // indirect
@@ -54,5 +54,3 @@ require (
 	google.golang.org/grpc v1.72.2 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )
-
-replace github.com/argus-labs/go-ecs => ../../../../

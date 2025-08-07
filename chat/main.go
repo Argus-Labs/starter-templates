@@ -1,8 +1,9 @@
 package main
 
 import (
+	"chat/system"
+
 	"github.com/argus-labs/go-ecs/pkg/cardinal"
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/chat/system"
 )
 
 func main() {

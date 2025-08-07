@@ -3,7 +3,8 @@ package system
 import (
 	"sync"
 
-	"github.com/argus-labs/go-ecs/pkg/cardinal/examples/demo-game/component"
+	"demo-game/component"
+
 	"github.com/argus-labs/go-ecs/pkg/ecs"
 )
 
